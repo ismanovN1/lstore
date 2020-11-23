@@ -1,0 +1,88 @@
+footer{
+    width: 100%;
+    padding: 5% 10% 6% 10%;
+    background:  rgba(0, 170, 221, 0.5);
+    font-size: .52em;
+}
+.footer{
+    margin: 0;
+}
+
+
+/*1-stolb*/
+
+
+.col1 img{
+    width: 4rem;
+}
+.about{
+    font-weight: 550;
+    margin: 2em 0 2em 0;
+    width: 60%;
+    font-size: 1.1em;
+}
+
+.time{
+    font-weight: 550;
+    margin: 2em 0 .5em 0;
+    font-size: 1.1em;
+}
+
+
+/*2-stolb*/
+
+/*.col2, .col3{
+    font-family: "Comfortaa";
+}*/
+.fohd{
+    font-size: 1.2em;
+    color: dodgerblue;
+    width: 3.7rem;
+    margin-bottom: .7rem;
+    padding-bottom: .2rem;
+    border-bottom:  dodgerblue solid;
+}
+
+details{
+    margin-top: 1em;
+}
+
+/*3-stolb*/
+
+.col3{
+    padding-left: 3rem;
+}
+
+.icon{
+    width: 1.4em;
+    margin-right: .4em;
+}
+
+.col3 input {
+    padding: 0 1em 0 1em ;
+    width: 70%;
+    border: 0.7px dodgerblue solid;
+    background: none;
+    border-radius: 3em;
+}
+
+.col3 button{
+    padding: 0 1em 0 1em ;
+    position: relative;
+    left: -8%;
+    width: 28%;
+    border: .7px dodgerblue solid;
+    background: dodgerblue;
+    color: white;
+    border-radius: 3em;
+}
+.sn, .form, .hd{
+    padding-top: 1em;
+}
+.eml{
+    margin: 1em 0 2em 0;
+}
+
+.sn img{
+    width: 1.8em;
+}

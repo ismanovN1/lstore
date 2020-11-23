@@ -1,0 +1,87 @@
+/*
+@media screen and (max-width: 900px) {
+    html{
+        font-size: 18px ;
+    }
+
+    .block1 img{
+        position: absolute;
+        width: 100%;
+        right: 0;
+        top: 0;
+    }
+
+    .col6{
+        width: 100%;
+    }
+}*/
+
+.animeBtn {
+    box-shadow: inset 0 0 0 4px #58cdd1;
+    color: #58afd1;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+}
+
+.animeBtn::before,
+.animeBtn::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0rem;
+    height: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.animeBtn::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+}
+
+.animeBtn::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+}
+
+.animeBtn:hover {
+    color: #ffe593;
+}
+
+.animeBtn:hover::before,
+.animeBtn:hover::after {
+    border-color: #eb196e;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+}
+
+.animeBtn:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+}
+
+.animeBtn:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+}
+.lbtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem 'Roboto Slab', sans-serif;
+    padding: 0.75em 2em;
+    letter-spacing: 0.05rem;
+    margin: 1em;
+    width: 13rem;
+}
+
+.lbtn:focus {
+    outline: 2px dotted #55d7dc;
+}
+

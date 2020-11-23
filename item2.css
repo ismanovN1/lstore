@@ -1,0 +1,55 @@
+
+
+.item2 .card{
+    margin: 1rem;
+    padding: 5em 3em 5em 3em ;
+    font-size: .4em;
+    border: none;
+    width: 80%;
+
+}
+.scrp{
+    position: relative;
+    width: 3em;
+    height: 3em;
+    top: -5.3em;
+    left: 1em;
+}
+.mainCard{
+    padding: 1rem;
+    border-radius: 3em;
+    width: 100%;
+    height: 100%;
+}
+
+.item2 .card-body{
+    padding: 3em 0 1em 0;
+}
+.item2 .card-image-top{
+
+}
+.item2 .avatar{
+    background: rgba(196,196,196,0.93);
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+/* -=-=- back next -=-=- */
+
+.next{
+    width: 1rem ;
+    margin: .3rem;
+}
+
+.xxls{
+    border-radius: 2rem;
+    padding: 2rem;
+    background: #7ED3EE;
+
+}
+.xxls p{
+    width: 66%;
+    font-weight: 600;
+}

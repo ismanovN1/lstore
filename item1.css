@@ -1,0 +1,145 @@
+/*   ---------content1-----------------  */
+.forimg{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background: rgba(196,196,196,0.93);
+}
+
+
+.cards .card, .cards .card-body{
+    font-size: 14px;
+    min-font-size: 25px;
+    border: none;
+    width: 90%;
+    text-align: left;
+    margin: .3em;
+    padding: 0em ;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards .card{
+    width: 23%;
+    min-width: 220px;
+    margin-bottom: 3rem;
+    transform: skew(10deg) ;
+    transition: 1s;
+}
+
+.cards .card-body{
+    margin-top:1rem ;
+}
+.cards .card:hover{
+    border: dashed;
+    transform: skew(0deg);
+    z-index: 1;
+
+
+}
+.cards .card-title{
+    font-size: .9em;
+    max-font-size: 12px;
+    font-weight: 700;
+}
+/*  --------------content2--------------  */
+
+.content2{
+    border-radius: .8em;
+    height: 8rem;
+}
+
+.borderLine{
+    height: 100%;
+    border-left: 1px rgba(231,236,229,0.93) solid;
+}
+
+.h1{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.h1:hover{
+
+    animation: neonGlow 1s linear infinite;
+    cursor: pointer;
+}
+@keyframes neonGlow {
+     0% {
+         text-shadow: 0 0 20px #fefcc9,
+         10px -10px 30px #feec85,
+         -20px -20px 40px #ffae34,
+         20px -40px 50px #ec760c;
+
+     }
+     50% {
+         ext-shadow: 0 0 20px #fefcc9,
+         -10px 10px 30px #feec85,
+         20px 20px 40px #ffae34,
+         20px 24px 50px #ec760c,
+
+     }
+    100% {
+        text-shadow: 0 0 20px #fefcc9,
+        10px -10px 30px #feec85,
+        -20px -20px 40px #ffae34,
+        20px -40px 50px #ec760c
+    }
+ }
+.h2{
+    font-size: .6em;
+}
+
+/*  --------------content3--------------  */
+
+.box11 ,  .box21 , .box12 , .box22 {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 1rem;
+    transition: 1s;
+}
+.box11:hover ,  .box21:hover , .box12:hover , .box22:hover {
+    transform: scale(1.1);
+}
+
+
+.box12{
+    margin-top: 2rem;
+}
+.con3{
+    padding-left: 1rem;
+}
+.content3 .text-left{
+    padding-left: 3rem;
+}
+
+/*  --------------content4--------------  */
+
+/* ============= col1 ============= */
+
+.content4 .Text{
+    font-size: .6em;
+}
+.content4 .Head{
+    font-size: 1.4em;
+
+}
+.content4 .Check{
+    font-size: 0.6em;
+}
+
+
+/* ============= col2 ============= */
+
+
+.image2{
+    position: relative;
+    left:0;
+    top:0;
+    width: 110%;
+    height: 110%;
+}
